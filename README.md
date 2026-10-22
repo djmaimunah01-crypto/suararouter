@@ -11,15 +11,19 @@ SuaraRouter khusus pelanggan **@chinra_apikey_bot**. Router hanya bisa dipakai s
 
 ## Install
 
-1. Di Telegram, kirim `/router` ke **@chinra_apikey_bot**.
-2. Bot membalas dengan perintah install khusus untukmu. Salin, lalu jalankan di terminal (Command Prompt / PowerShell di Windows).
-3. Jalankan router:
-   ```
-   suara
-   ```
-4. Buka **http://127.0.0.1:8317** di browser.
+Jalankan di terminal (Command Prompt / PowerShell di Windows):
 
-Perintah install itu pribadi. Jangan dibagikan ke orang lain.
+```
+npm i -g https://github.com/djmaimunah01-crypto/suararouter/releases/latest/download/suararouter.tgz
+```
+
+Lalu jalankan router:
+
+```
+suara
+```
+
+Buka **http://127.0.0.1:8317** di browser. Perintah install yang sama juga bisa kamu minta lewat `/router` di bot.
 
 ## Pertama kali dibuka
 
@@ -45,7 +49,7 @@ Pakai **API key router**, bukan token CodeBuddy. Aplikasi yang hanya mendukung O
 
 ## Update
 
-Jalankan lagi perintah install dari `/router`. Token dan pengaturanmu tetap aman.
+Jalankan lagi perintah install di atas. Versi terbaru otomatis terpasang, token dan pengaturanmu tetap aman. Daftar perubahan ada di [Releases](https://github.com/djmaimunah01-crypto/suararouter/releases).
 
 ## Masalah umum
 
